@@ -1,0 +1,130 @@
+/*Styling a User Registration Form*/
+.registration-form > body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.registration-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.registration-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.registration-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.registration-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.registration-form button:hover {
+    background-color: #4cae4c;
+}
+
+/*Enhancing Lists for Navigation*/
+
+.nav-menu > body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav-menu a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+/*Styling Tables for Data Presentation*/
+
+.data-table > body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.data-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.data-table thead tr {
+    background-color: #009879;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.data-table th, .data-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.data-table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.data-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.data-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
